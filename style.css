@@ -1,0 +1,62 @@
+body{
+    max-width: 960px;
+  }
+  
+  header{
+    display: block;
+  
+  }
+  
+  h1{
+    display: block;
+  }
+  
+  div{
+    display: block;
+  }
+  
+  p{
+    display: block;
+  }
+   
+  header{
+      display: inline;
+  } 
+}
+section {
+  display: block;
+}
+
+  
+  li{
+    list-style-type: none;
+  }
+
+  #form {
+    background-image: url(./img/list-bg.png);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer {
+    display: flex;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+  
+  
+  }
+  .left{
+      float: left;
+
+  }
+  .right{
+      float: right;
+  }
+  #submit {
+    height: 50px;
+    width: 150px;
+    background-color:brown;
+    color: white;
+    /* font-family: verdana; */
+  }
